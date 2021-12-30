@@ -1,0 +1,17 @@
+
+<%= form_tag("/articles/creat") do %>
+　<p>覚悟時間の入力</p>
+  <%= label_tag  %>
+  <%= time_field_tag :time %> <br> 
+
+  <p>覚悟金額の入力</p>
+  <%= label_tag %>
+  <%= text_field_tag :money %><br>
+  <br>
+  <%= submit_tag "覚悟を決める" , data: { confirm: "覚悟を決めたら一歳変更できません。この内容で大丈夫ですか？"} %>
+  
+<% end %>
+
+
+
+
