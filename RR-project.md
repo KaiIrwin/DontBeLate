@@ -66,7 +66,7 @@ Q 写真アップ
       - cuz its the first time reading documentation and shit
     - Cuz I dont know the 特徴 of slack APIs 
       - Maybe cuz i need to know more about chat app APIs and overall 種類 and shit?
-### Soulution
+### Solution
 1. Google how to connect Slack API to app
 2. Google how to connect APIs to your app
 3. Ask someone about how to connect APIs to apps
