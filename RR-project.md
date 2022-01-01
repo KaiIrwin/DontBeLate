@@ -50,3 +50,28 @@ Q API つける
 Q if else js どこに書くねん
 
 Q 写真アップ
+
+# task [use the root cause frame]
+### 2022.1.1
+### Root cause analisys
+- I cant connect the slack API to my app
+  - I cant connect a 3rd party API to anything
+    - I dont know how to 
+    - I dont understand the vids
+    - 背景知識
+    - Source
+      - Ask someone
+  - The slack API is a bit different / hard from other APIs
+    - Cuz i think its hard
+      - cuz its the first time reading documentation and shit
+    - Cuz I dont know the 特徴 of slack APIs 
+      - Maybe cuz i need to know more about chat app APIs and overall 種類 and shit?
+### Soulution
+1. Google how to connect Slack API to app
+2. Google how to connect APIs to your app
+3. Ask someone about how to connect APIs to apps
+4. Google about Slack API and see if its different from others
+5. Google about how to read API docs
+6. Read a book about how to connect APIs to apps
+
+
