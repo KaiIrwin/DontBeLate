@@ -84,4 +84,3 @@ Q 写真アップ
 5. Google about how to read API docs
 6. Read a book about how to connect APIs to apps
 
-
