@@ -84,3 +84,8 @@ Q 写真アップ
 5. Google about how to read API docs
 6. Read a book about how to connect APIs to apps
 
+### 2022.1.4
+- Issue no.1  大筋複数個 -> dive a little bit and 斬りつける 無理なら聞く
+  - 
+- 上田さん整理
+- New issue (条件分岐まで？)
