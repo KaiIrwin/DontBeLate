@@ -86,6 +86,8 @@ Q 写真アップ
 
 ### 2022.1.4
 - Issue no.1  大筋複数個 -> dive a little bit and 斬りつける 無理なら聞く
-  - 
+  - HTTParty を使用して get する
+  - 他の gem を利用する
+  - Just use CURL or postman and connected it from there?
 - 上田さん整理
 - New issue (条件分岐まで？)
