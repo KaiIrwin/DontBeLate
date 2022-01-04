@@ -85,9 +85,9 @@ Q 写真アップ
 6. Read a book about how to connect APIs to apps
 
 ### 2022.1.4
-- Issue no.1  大筋複数個 -> dive a little bit and 斬りつける 無理なら聞く
+- Issue no.1  大筋複数個 -> dive a little bit and 斬りつける 無理なら聞く XD DONE ! 😎 
   - HTTParty を使用して get する
-    - But how do i get the JSON file (how do i know its working)
+    - But how do i get the JSON file (how do i know its working) DONE ! 
   - 他の gem を利用する
   - Just use CURL or postman and connected it from there?
 - 上田さん整理
