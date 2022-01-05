@@ -91,4 +91,15 @@ Q 写真アップ
   - 他の gem を利用する
   - Just use CURL or postman and connected it from there?
 - 上田さん整理
-- New issue (条件分岐まで？)
+  
+- Do 条件分岐 on the JSON result you got
+  - First i need to parse the JSON. And get the "presence" / "online" part
+    - Parse JSON and give it a variable name, then do the 条件分岐　code on the local ruby file using that variable 
+      - Find a way to just use code from the terminal
+        - i googled 'manipulate json from bash' でも明らかに筋悪そうなので却下
+        - 日本語でもターミナルの json をローカルに とかってやったけどいいやつがない
+    - Do the parsing and 条件分岐 all on the terminal 
+    - Just fucking use postman or curl maybe lol 
+  
+- I need a way to call the https thing on a set TIME . which is the 覚悟時間
+  => [重要質問] Should i make the code so that the code can call trhe API at the 覚悟時間, then make the parse and 条件分岐 code. Or other way round. ... 正直いつ発火させるかみたいな要素はあまり parse と 条件分岐 の code に関係性あまりなさそう。But you should ask just in case.
