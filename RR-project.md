@@ -125,3 +125,7 @@ token refresh に関して
 - 別の人
 - https://ifttt.com/ or zapier 使ってみる
 - スクレーピングする ->  
+
+
+### 2022.1.6
+- GET THE botstrap pic to load lol 
