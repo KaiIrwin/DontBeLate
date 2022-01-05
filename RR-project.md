@@ -50,3 +50,56 @@ Q API つける
 Q if else js どこに書くねん
 
 Q 写真アップ
+
+# task [use the root cause frame]
+### 2022.1.1
+### Root cause analisys
+- I cant connect the slack API to my app
+  - I cant connect a 3rd party API to anything
+    - I dont know how to 
+    - I dont understand the vids
+    - 背景知識
+    - Source
+      - Ask someone
+  - The slack API is a bit different / hard from other APIs
+    - Cuz i think its hard
+      - cuz its the first time reading documentation and shit
+    - Cuz I dont know the 特徴 of slack APIs 
+      - Maybe cuz i need to know more about chat app APIs and overall 種類 and shit?
+### Solution
+1. Google how to connect Slack API to app: meh, best thing was the slack API official docs
+2. Google how to connect APIs to your app
+   - ok so i think i need to CALL from Slack API to see whether the person is on Slack or not-> i need to use request methods
+   - I got to the web API method list of slack *
+   - If i googled how to use API on rails, i spoted people using postman. and there were a few vids on that if i googled postman rails  * 
+   - あと　Slack docs に tutorials もある！*
+   - [戦略] Skim the Slacl API docs -> watch postman rails video
+   - Events API の中に入ってそう。 Event API = when making apps that RESPOND to slack app functianality
+     - You need to 1. subscribe to an event (i think you look for that from the event types list?) 2. make an app that reacts to that event
+     - SUBSCRIBING: after making a slack app, <- 謎 on slack, find the "Event Subscriptions" configuration page and turn it on 
+       - MAKING A SLACK APP https://www.youtube.com/watch?v=25ArxpK48tU
+       
+3. Ask someone about how to connect APIs to apps
+4. Google about Slack API and see if its different from others
+5. Google about how to read API docs
+6. Read a book about how to connect APIs to apps
+
+### 2022.1.4
+- Issue no.1  大筋複数個 -> dive a little bit and 斬りつける 無理なら聞く XD DONE ! 😎 
+  - HTTParty を使用して get する
+    - But how do i get the JSON file (how do i know its working) DONE ! 
+  - 他の gem を利用する
+  - Just use CURL or postman and connected it from there?
+- 上田さん整理
+  
+- Do 条件分岐 on the JSON result you got
+  - First i need to parse the JSON. And get the "presence" / "online" part
+    - Parse JSON and give it a variable name, then do the 条件分岐　code on the local ruby file using that variable 
+      - Find a way to just use code from the terminal
+        - i googled 'manipulate json from bash' でも明らかに筋悪そうなので却下
+        - 日本語でもターミナルの json をローカルに とかってやったけどいいやつがない
+    - Do the parsing and 条件分岐 all on the terminal 
+    - Just fucking use postman or curl maybe lol 
+  
+- I need a way to call the https thing on a set TIME . which is the 覚悟時間
+  => [重要質問] Should i make the code so that the code can call trhe API at the 覚悟時間, then make the parse and 条件分岐 code. Or other way round. ... 正直いつ発火させるかみたいな要素はあまり parse と 条件分岐 の code に関係性あまりなさそう。But you should ask just in case.
