@@ -1,7 +1,7 @@
 require 'httparty'
 
 # Auth key updates. You need to change the Auth key once in a while and you need to autimate that
-presenceOfUserFullAPIResponse = HTTParty.get('https://slack.com/api/users.getPresence', headers: {"Authorization" => "Bearer xoxp-2897666266758-2928076043648-2909522313811-2b89a3ceeb4ff4570a258f541accca2b"})
+presenceOfUserFullAPIResponse = HTTParty.get('https://slack.com/api/users.getPresence', headers: {"Authorization" => "Bearer xoxb-2897666266758-2889803331655-NUs2IDbCIwcBUKTpzLBhE3Jy"})
 
 presenceOfUser = presenceOfUserFullAPIResponse["online"]
 

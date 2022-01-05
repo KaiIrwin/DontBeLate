@@ -105,10 +105,16 @@ Q 写真アップ
   => [重要質問] Should i make the code so that the code can call trhe API at the 覚悟時間, then make the parse and 条件分岐 code. Or other way round. ... 正直いつ発火させるかみたいな要素はあまり parse と 条件分岐 の code に関係性あまりなさそう。But you should ask just in case.
 
   ### 2022.1.5 質問
-  - 別の file の変数を erb file に反映させる方法
+  - 別の file の変数を erb file に反映させる方法 [done]
+    - you need to write this on your controller ! 
+    - [] controller の部分の整理タスクは必須や
+    - so httparty は本来は controller にあるべきものであったってことやな
   - backend にある data (覚悟時間とか)を表示さあせたい
-  - Auth key peoblemm
-  - 指定時間で API を発火？ そもそもそれする必要があるのか自体危うい
+  - Auth key peoblemm [保留]
+  - 指定時間で API を発火？ そもそもそれする必要があるのか自体危うい 
+
+
+
 
 token refresh に関して
 - 勉強目的なので無視する
