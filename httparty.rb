@@ -15,4 +15,3 @@ end
 # Making a new variable so i can use it in result.html.erb
 @resultOfTheDeal = resultOfTheDeal
 
-

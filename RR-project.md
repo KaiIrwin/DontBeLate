@@ -103,3 +103,19 @@ Q 写真アップ
   
 - I need a way to call the https thing on a set TIME . which is the 覚悟時間
   => [重要質問] Should i make the code so that the code can call trhe API at the 覚悟時間, then make the parse and 条件分岐 code. Or other way round. ... 正直いつ発火させるかみたいな要素はあまり parse と 条件分岐 の code に関係性あまりなさそう。But you should ask just in case.
+
+  ### 2022.1.5 質問
+  - 別の file の変数を erb file に反映させる方法
+  - backend にある data (覚悟時間とか)を表示さあせたい
+  - Auth key peoblemm
+  - 指定時間で API を発火？ そもそもそれする必要があるのか自体危うい
+
+token refresh に関して
+- 勉強目的なので無視する
+- if refresh されているなら
+  - OAuth v２ (tab にある) の API 
+  - 別の API で取得
+  - https://api.slack.com/admins/audit-logs -> そもそも
+- 別の人
+- https://ifttt.com/ or zapier 使ってみる
+- スクレーピングする ->  
