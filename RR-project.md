@@ -129,3 +129,4 @@ token refresh に関して
 
 ### 2022.1.6
 - GET THE botstrap pic to load lol 
+- create a new article on the console (泉川さんとやったやつの続き)
