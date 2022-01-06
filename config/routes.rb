@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'sessions/destroy'
   root "articles#home"
 
-  post "articles/creat" => "articles#creat"
+  post "deals/create" => "deals#create"
 
   get "/home", to: "articles#home"
   get "/makethedeal", to: "articles#dealinput"

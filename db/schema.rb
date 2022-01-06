@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2022_01_04_060657) do
   end
 
   create_table "deals", force: :cascade do |t|
-    t.integer "time"
+    t.datetime "time"
     t.integer "money"
     t.integer "article_id", null: false
     t.datetime "created_at", precision: 6, null: false

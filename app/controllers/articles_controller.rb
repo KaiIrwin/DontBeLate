@@ -13,6 +13,10 @@ class ArticlesController < ApplicationController
     # @post.save
   end
 
+  def apipart
+    @deal = Deal.all.last.time
+  end
+
   # def create
   #   @articles = Article.new(content:params[:content])
   #   @articles.save
