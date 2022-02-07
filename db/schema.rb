@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_12_08_121407) do
+ActiveRecord::Schema.define(version: 2022_01_04_060657) do
 
   create_table "articles", force: :cascade do |t|
     t.string "title"
@@ -20,12 +20,23 @@ ActiveRecord::Schema.define(version: 2021_12_08_121407) do
   end
 
   create_table "deals", force: :cascade do |t|
-    t.integer "time"
+    t.datetime "time"
     t.integer "money"
     t.integer "article_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["article_id"], name: "index_deals_on_article_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+    t.string "email"
+    t.string "provider"
+    t.string "uid"
+    t.string "token"
+    t.string "channel"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   add_foreign_key "deals", "articles"
