@@ -1,3 +1,4 @@
 class ApplicationController < ActionController::Base
 
-    # これは使ってない、したメインend
+    # これは使ってない、したメイン
+end
